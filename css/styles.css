@@ -178,6 +178,7 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--light);
+  width: 264px;
 }
 .menu-buttons {
   font-size: 16px;
@@ -238,8 +239,8 @@ footer {
   color: var(--text);
 }
 
-.cointainer {
-  width: 1159px;
+.container {
+  width: 1158px;
   padding: 0px 15px;
   margin: 0 auto;
 }
@@ -254,6 +255,9 @@ footer {
 }
 .header-line {
   border-bottom: 1px solid var(--accent);
+}
+.team-box {
+  background: var(--light);
 }
 .section {
   padding: 120px 0px;
