@@ -10,6 +10,7 @@ body {
   --white: #fff;
   --link-active: #404bbf;
   --accent: #e7e9fc;
+  --button-shadow: rgba(0, 0, 0, 0.15);
 }
 .logo {
   font-family: Raleway;
@@ -20,6 +21,9 @@ body {
   line-height: 1.3125;
   letter-spacing: 0.03375;
   text-transform: uppercase;
+  padding-right: 76px;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 .web-logo {
   color: var(--primary-brand);
@@ -31,6 +35,10 @@ body {
 
 .list {
   list-style-type: none;
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+  margin: 0;
 }
 
 .contact-links {
@@ -38,6 +46,8 @@ body {
   font-style: normal;
   font-weight: 400;
   color: var(--text);
+  line-height: 150%;
+  letter-spacing: 0.32px;
 }
 .contact-links:hover,
 .contact-links:focus {
@@ -49,6 +59,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   color: var(--text);
+  letter-spacing: 0.32;
 }
 .menu-nav:hover,
 .menu-nav:focus {
@@ -57,7 +68,11 @@ body {
 
 .hero {
   background: #2e2f42;
-  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding-bottom: 188px;
 }
 .hero-header {
   font-size: 56px;
@@ -67,6 +82,9 @@ body {
   text-align: center;
   line-height: 3.75;
   letter-spacing: 1.12px;
+  padding-top: 188px;
+  margin: 0;
+  width: 496px;
 }
 .hero-button {
   color: var(--white);
@@ -77,6 +95,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+  font-style: "inherit";
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px var(--button-shadow);
+  border: none;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -174,4 +197,17 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--text);
+}
+
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.header-line {
+  border-bottom: 1px solid var(--accent);
 }
