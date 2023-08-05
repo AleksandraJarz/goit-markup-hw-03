@@ -76,7 +76,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 48px;
-  padding: 188px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-header {
   font-size: 56px;
@@ -87,6 +88,7 @@ body {
   letter-spacing: 1.12px;
   margin: 0;
   width: 496px;
+  margin-bottom: 48px;
 }
 .hero-button {
   color: var(--white);
@@ -104,6 +106,7 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 48px;
+  padding: 16px 32px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -121,7 +124,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0, 4px;
+  letter-spacing: 0.025em;
   color: var(--dark);
   margin-bottom: 8px;
   margin-top: 0px;
@@ -130,8 +133,8 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
   margin: 0;
+  letter-spacing: 0.02em;
 }
 
 .spec {
@@ -165,7 +168,7 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   padding-bottom: 72px;
-  margin: 0;
+  margin: 0 auto;
 }
 footer {
   background-color: var(--dark);
@@ -230,7 +233,6 @@ footer {
   color: var(--dark);
   padding: 0px;
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 .job-position {
   text-align: center;
@@ -298,7 +300,7 @@ footer {
   background: var(--light);
 }
 .section {
-  padding: 120px 0px;
+  padding: 188px 0px;
 }
 img {
   display: block;
