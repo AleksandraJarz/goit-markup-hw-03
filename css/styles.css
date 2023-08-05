@@ -230,6 +230,7 @@ footer {
   color: var(--dark);
   padding: 0px;
   margin-bottom: 8px;
+  margin-top: 32px;
 }
 .job-position {
   text-align: center;
@@ -240,6 +241,12 @@ footer {
   letter-spacing: 0.32px;
   color: var(--text);
   margin: 0;
+}
+.worker-card {
+  padding: 32px 0px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 1px 0px;
 }
 
 .list-project {
@@ -292,4 +299,18 @@ footer {
 }
 .section {
   padding: 120px 0px;
+}
+img {
+  display: block;
+}
+
+.project-description {
+  background-color: var(--white);
+  border-color: var(--accent);
+  border-style: solid;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-width: 0;
+  padding: 32px 16px;
 }
